@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjetoBD</string>
+
+    <string-array name="itens_spinner">
+        <item>Real Madrid</item>
+        <item>Barca</item>
+        <item>Cruzeiro</item>
+    </string-array>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    tools:context=".TelaVizualizar">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnJogadorvz"
+        android:layout_width="99dp"
+        android:layout_height="39dp"
+        android:background="@color/white"
+        android:text="JOGADOR"
+        app:cornerRadius="0px"
+        app:iconPadding="0px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPesquisar"
+        android:layout_width="216dp"
+        android:layout_height="17dp"
+        android:background="@color/white"
+        android:text="PESQUISAR"
+        app:cornerRadius="0px"
+        app:iconPadding="0px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTimevz"
+        android:layout_width="99dp"
+        android:layout_height="39dp"
+        android:background="@color/white"
+        android:text="TIME"
+        app:cornerRadius="0px"
+        app:iconPadding="0px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnVoltar"
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:background="@color/white"
+        android:text="VOLTAR"
+        app:cornerRadius="0px"
+        app:iconPadding="0px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recicladorJogadores"
+        android:layout_width="315dp"
+        android:layout_height="490dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="263dp"
+        android:layout_height="57dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
